@@ -1,0 +1,47 @@
+/*
+css -> hoja de estilo en cascada
+selectores -> una forma de llamar los elementos HTML desde CSS
+- selector universal -> * (todo)
+- por etiqueta
+- por clase
+- por ID
+
+jerarquias
+- los estilos que mas jerarquia tienen son los estilos en linea 
+- los estilos se aplican por cascada    
+
+*/
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* Variables -> espacio reservado en memoria - cajitas */
+:root{
+    --color-primario: lightblue;
+    --color-secundario: yellowgreen;
+}
+
+h2{
+    color: green;
+    text-align: center;
+}
+
+.subtitulo-seccion{
+    color: var(--color-primario);
+}
+
+#seccion-tortuga{
+    background-color: aqua;
+}
+
+p{
+    color: var(--color-secundario);
+}
