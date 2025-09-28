@@ -48,7 +48,8 @@ body
  
 .porcentaje
 {   
-    background: hsl(258, 80%, 25%);
+  background: linear-gradient(to bottom, #2a67d1, #8ba4cf);
+;
     width: 100px;
     height: 100px;
     border-radius: 50%;
