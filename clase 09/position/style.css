@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+section div {
+    background-color: violet;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/* .static {
+    position: static;
+
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+}
+
+.absolute {
+    position: absolute;
+    z-index: -1;
+    /* right: 1100px; */
+
+
+body {
+    min-height: 300vh;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+
+}
+
+*/ section {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
