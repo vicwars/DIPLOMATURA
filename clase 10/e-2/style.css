@@ -32,3 +32,15 @@ div img {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media (max-width: 480px) {
+    article {
+        grid-template-columns: 1fr;
+        background-color: black;
+        padding: 0;
+    }
+
+    div {
+        width: 90%;
+    }
+}
