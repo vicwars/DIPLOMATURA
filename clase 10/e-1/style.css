@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* tablet fondo violeta y 15px */
+@media(max-width: 880px) {
+    section {
+        background-color: blueviolet;
+        font-size: 15px;
+
+    }
+
+    h2 {
+        color: brown;
+    }
+}
+
+/* mobile fondo azul y letra blanca 10px */
+@media(max-width: 480px) {
+    section {
+        background-color: blue;
+        color: white;
+        font-size: 10px;
+    }
+}
